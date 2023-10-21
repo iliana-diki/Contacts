@@ -1,0 +1,12 @@
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\bin\Debug\net6.0\Contacts.Data.deps.json
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\bin\Debug\net6.0\Contacts.Data.dll
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\bin\Debug\net6.0\Contacts.Data.pdb
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\Contacts.Data.csproj.AssemblyReference.cache
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\Contacts.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\Contacts.Data.AssemblyInfoInputs.cache
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\Contacts.Data.AssemblyInfo.cs
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\Contacts.Data.csproj.CoreCompileInputs.cache
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\Contacts.Data.dll
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\refint\Contacts.Data.dll
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\Contacts.Data.pdb
+C:\SU-ContainersAndCloud\12ExPrep\1\Contacts.Data\obj\Debug\net6.0\ref\Contacts.Data.dll

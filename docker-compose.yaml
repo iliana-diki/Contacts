@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+    contacts:
+        ports:
+            - '80:80'
+        container_name: contacts
+        domainname: ilianaalexandrova
+        image: ilianaalexandrovacontactsscr.azurecr.io/contacts # CHANGE after acr is created and image is pushed
+        # build: 
+        # dockerfile: ./Dockerfile
+        restart: on-failure 
+    mssql:
+        environment:
+            - ACCEPT_EULA=Y
+            - MSSQL_SA_PASSWORD=myStrongPassword12#
+        ports:
+            - 1433:1433
+        volumes:
+            - sqldata:/var/opt/mssql
+        container_name: sqlserver 
+        image: mcr.microsoft.com/mssql/server:latest
+        deploy: # new for AZ
+             resources: 
+                reservations:
+                    cpus: '2'
+                    memory: '2GB'
+volumes:
+  sqldata: # new for AZ
+    driver: azure_file
+    driver_opts:
+        share_name: sql-volume
+        storage_account_name: contactsstorageacc
